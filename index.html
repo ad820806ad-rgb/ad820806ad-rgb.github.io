@@ -50,6 +50,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(-
 .id img{width:92px;height:116px;object-fit:cover;border-radius:10px}
 .id small{display:block;color:var(--mute);font-size:15px}
 .hero h1{font-size:clamp(36px,4.6vw,56px)}
+html[lang=en] .hero h1{font-size:clamp(32px,3.4vw,52px)}
 .role{font-size:clamp(19px,2vw,23px);font-weight:600;color:var(--blue);font-family:"Inter Tight","Noto Sans TC"}
 .figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);padding-top:16px;gap:14px}
 .figs b{display:block;font:700 clamp(26px,3vw,36px)/1.05 "Inter Tight";color:var(--ink)}
@@ -62,7 +63,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(-
 .stackfig{background:var(--field);position:relative;min-height:520px}
 .stackfig svg{position:absolute;inset:0;width:100%;height:100%}
 .stackfig text{font:500 14px Inter,"Noto Sans TC"}
-@media(min-width:761px){.hero{min-height:175vh;align-items:start}.hero .txt,.hero .stackfig{position:sticky;top:57px;height:calc(100vh - 57px);min-height:560px}}
+@media(min-width:761px){.hero{min-height:175vh;align-items:start}.hero .stackfig{position:sticky;top:57px;height:calc(100vh - 57px);min-height:560px}.hero .txt{position:sticky;top:57px;min-height:calc(100vh - 57px)}}
 @media(min-width:761px) and (prefers-reduced-motion:reduce){.hero{min-height:0}.hero .txt,.hero .stackfig{position:static;height:auto}}
 .sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:20px 48px;align-items:end;margin-bottom:28px}
 .thesis{border-left:3px solid var(--blue);padding-left:16px}
@@ -270,7 +271,7 @@ td.r,th.r{text-align:right}
       <div><h1 data-en="Jung-Feng Tsao">曹榮峰</h1><small data-en="曹榮峰 · TSAO JUNG FENG">TSAO JUNG FENG</small></div>
     </div>
     <div class="role" data-en="Thin-film process / semiconductor equipment engineer">薄膜製程工程師／半導體設備工程師</div>
-    <p class="lead" data-en="M.S. in Photonics &amp; Materials (National Formosa University). Hands-on with thermal evaporation, sputtering and post-deposition annealing. My thesis raised the average efficiency of dopant-free hole-contact silicon solar cells from 14.94% to 22.25% through five single-variable stages, and I maintained and troubleshot the lab's evaporator and sputter tools.">國立虎尾科技大學 光電與材料科技碩士。熟悉熱蒸鍍、濺鍍與沉積後退火；碩士論文以五階段、一次一個變因的實驗，把無摻雜電洞選擇層矽太陽能電池的平均效率由 14.94% 提升到 22.25%，並負責實驗室蒸鍍機、濺鍍機的保養與異常排除。</p>
+    <p class="lead" data-en="M.S. in Electro-Optical and Materials Science (National Formosa University). Hands-on with thermal evaporation, sputtering and post-deposition annealing. My thesis raised the average efficiency of dopant-free hole-contact silicon solar cells from 14.94% to 22.25% through five single-variable stages, and I maintained and troubleshot the lab's evaporator and sputter tools.">國立虎尾科技大學 光電與材料科技碩士。熟悉熱蒸鍍、濺鍍與沉積後退火；碩士論文以五階段、一次一個變因的實驗，把無摻雜電洞選擇層矽太陽能電池的平均效率由 14.94% 提升到 22.25%，並負責實驗室蒸鍍機、濺鍍機的保養與異常排除。</p>
     <div class="figs">
       <div><b>22.25%</b><span data-en="Average cell efficiency, up from 14.94%">平均轉換效率（由 14.94% 起）</span></div>
       <div><b data-en="5 stages">5 階段</b><span data-en="Single-variable process convergence">單一變因製程收斂</span></div>
@@ -478,7 +479,7 @@ td.r,th.r{text-align:right}
       <thead><tr><th data-en="Certificate">證照／訓練</th><th data-en="Issuer">發證單位</th><th class="r" data-en="Date">日期</th></tr></thead>
       <tbody>
         <tr class="key"><td data-en="TF Tool Fundamentals (16 h)">TF 機台基礎（16 小時）</td><td data-en="TSMC Newcomer Training Center">台積電 Newcomer Training Center</td><td class="r num">2024/03</td></tr>
-        <tr><td data-en="Industrial Wiring, Level C">丙級工業配線技術士</td><td data-en="Workforce Development Agency, MOL">勞動部勞動力發展署</td><td class="r num">2019/08</td></tr>
+        <tr><td data-en="Industrial Wiring, Level C">丙級工業配線技術士</td><td data-en="Workforce Development Agency, MOL">勞動部勞動力發展署</td><td class="r num">2018/08</td></tr>
         <tr><td data-en="Industrial Electronics, Level C">丙級工業電子技術士</td><td data-en="Workforce Development Agency, MOL">勞動部勞動力發展署</td><td class="r num">2019/08</td></tr>
         <tr><td data-en="III-V Solar Cell Processing (3 h)">III-V 族太陽能電池製程與應用（3 小時）</td><td data-en="NFU Materials Summer School">虎尾科大材料系 Summer School</td><td class="r num">2023/09</td></tr>
         <tr><td data-en="IR &amp; Raman for Semiconductor Materials (3 h)">紅外線與拉曼光譜在半導體材料的應用（3 小時）</td><td data-en="NFU Materials Summer School">虎尾科大材料系 Summer School</td><td class="r num">2023/09</td></tr>
@@ -538,7 +539,7 @@ const swap = () => {
   document.getElementById("len").setAttribute("aria-pressed", lang === "en");
   document.title = T("曹榮峰 個人網站", "Jung-Feng Tsao Portfolio");
   for (const c of document.querySelectorAll(".stack td")) c.removeAttribute("data-l");
-  labelCells(); for (const p of players) p.render(); drawAll(); stageTable();
+  labelCells(); for (const p of players) p.render(); drawAll(); stageTable(); fitHero();
 };
 const setLang = l => { lang = l; try { localStorage.setItem("lang", l); } catch (e) {} swap(); };
 document.getElementById("lzh").onclick = () => setLang("zh");
@@ -989,6 +990,15 @@ const drawRaw = () => {
 };
 document.getElementById("jvzoom").onclick = ev => { jvZoom = !jvZoom; ev.currentTarget.setAttribute("aria-pressed", jvZoom); drawRaw(); };
 const drawAll = () => { drawStack(); drawStage(); drawPress(); drawRaw(); };
+/* desktop hero: text column stays below the nav; if taller than the screen it scrolls until its bottom shows, then sticks */
+const fitHero = () => {
+  const t = document.querySelector(".hero .txt");
+  if (!window.matchMedia("(min-width: 761px)").matches) { t.style.top = ""; return; }
+  const navH = document.querySelector("nav").offsetHeight;
+  t.style.top = Math.min(navH, innerHeight - t.offsetHeight) + "px";
+};
+new ResizeObserver(fitHero).observe(document.querySelector(".hero .txt"));
+addEventListener("resize", fitHero);
 const ro = new ResizeObserver(() => drawAll());
 for (const id of ["stackfig", "stagefig", "pressfig", "jvfig", "cvfig"]) ro.observe(document.getElementById(id));
 
